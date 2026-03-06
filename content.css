@@ -1,0 +1,418 @@
+/* Slopbuster — Content Script Styles (injected into Twitter/X)
+   All colors use CSS custom properties set dynamically by content.js
+   from Twitter's live computed styles, so they adapt to whatever
+   theme (light, dim, dark) is currently active.
+
+   Variables set at runtime on :root:
+   --sb-bg, --sb-surface, --sb-border, --sb-text, --sb-secondary,
+   --sb-accent, --sb-hover, --sb-danger, --sb-danger-hover, --sb-overlay
+*/
+
+/* ── Hidden tweet placeholder ─────────────────────────────────────── */
+
+article[data-slopbuster="hidden"] > *:not(.slopbuster-hidden-placeholder) {
+  display: none !important;
+}
+
+.slopbuster-hidden-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--sb-surface);
+  border: 1px solid var(--sb-border);
+  border-radius: 12px;
+  margin: 4px 0;
+}
+
+.slopbuster-hidden-text {
+  color: var(--sb-secondary);
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.slopbuster-reveal-btn {
+  background: transparent;
+  border: 1px solid var(--sb-secondary);
+  color: var(--sb-secondary);
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.slopbuster-reveal-btn:hover {
+  background: var(--sb-hover);
+  color: var(--sb-text);
+}
+
+/* ── Inline flag badge (sits in the username row with other badges) ── */
+
+.slopbuster-badge {
+  display: inline !important;
+  position: relative !important;
+  margin-left: 4px !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  line-height: 1 !important;
+}
+
+.slopbuster-badge-svg {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  width: 18px !important;
+  height: 18px !important;
+  color: #f44336 !important;
+  transition: transform 0.15s ease, filter 0.15s ease, color 0.15s ease !important;
+}
+
+.slopbuster-badge:hover .slopbuster-badge-svg {
+  transform: scale(1.4) !important;
+  color: #ff1744 !important;
+  filter: drop-shadow(0 0 8px #ff1744) drop-shadow(0 0 16px rgba(255, 23, 68, 0.5)) !important;
+}
+
+.slopbuster-badge:hover .slopbuster-badge-tooltip {
+  display: flex;
+}
+
+.slopbuster-badge-tooltip {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 6px);
+  transform: translateX(-50%);
+  background: var(--sb-surface);
+  border: 1px solid var(--sb-border);
+  border-radius: 12px;
+  padding: 10px 14px;
+  color: var(--sb-text);
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: normal;
+  min-width: 180px;
+  max-width: 280px;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  pointer-events: none;
+}
+
+.slopbuster-tooltip-header {
+  font-weight: 700;
+  color: var(--sb-accent);
+  font-size: 13px;
+}
+
+.slopbuster-tooltip-handle {
+  color: var(--sb-secondary);
+  font-size: 12px;
+}
+
+.slopbuster-tooltip-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.slopbuster-reason-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.slopbuster-reason-tag::before {
+  content: "\1F3F7\FE0F";
+  font-size: 10px;
+}
+
+.slopbuster-reason-show {
+  background: rgba(46, 160, 67, 0.15);
+  color: #3fb950;
+  border: 1px solid rgba(46, 160, 67, 0.3);
+}
+
+.slopbuster-reason-flag {
+  background: rgba(210, 153, 34, 0.15);
+  color: #d29922;
+  border: 1px solid rgba(210, 153, 34, 0.3);
+}
+
+.slopbuster-reason-hide {
+  background: rgba(248, 81, 73, 0.15);
+  color: #f85149;
+  border: 1px solid rgba(248, 81, 73, 0.3);
+}
+
+.slopbuster-note {
+  color: var(--sb-secondary);
+  font-style: italic;
+  font-size: 12px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ── Bust menu item (injected into Twitter dropdown) ──────────────── */
+
+.slopbuster-bust-option {
+  cursor: pointer;
+  padding: 12px 16px;
+  transition: background 0.2s;
+}
+
+.slopbuster-bust-option:hover {
+  background: var(--sb-hover);
+}
+
+.slopbuster-bust-option-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--sb-danger);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.slopbuster-bust-icon {
+  font-size: 18px;
+}
+
+/* ── Modal overlay ────────────────────────────────────────────────── */
+
+.slopbuster-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--sb-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.slopbuster-modal {
+  background: var(--sb-bg);
+  border: 1px solid var(--sb-border);
+  border-radius: 16px;
+  width: 440px;
+  max-width: 90vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.slopbuster-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--sb-border);
+}
+
+.slopbuster-modal-header h2 {
+  margin: 0;
+  color: var(--sb-text);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.slopbuster-modal-close {
+  background: none;
+  border: none;
+  color: var(--sb-secondary);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.slopbuster-modal-close:hover {
+  color: var(--sb-text);
+}
+
+.slopbuster-modal-body {
+  padding: 16px 20px;
+}
+
+.slopbuster-modal-sub {
+  color: var(--sb-text);
+  margin: 0 0 4px;
+  font-size: 14px;
+}
+
+.slopbuster-modal-source {
+  display: inline-block;
+  color: var(--sb-text);
+  background: var(--sb-surface);
+  border: 1px solid var(--sb-border);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  margin: 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.slopbuster-modal-url {
+  color: var(--sb-secondary);
+  margin: 0 0 16px;
+  font-size: 12px;
+  word-break: break-all;
+}
+
+.slopbuster-label {
+  display: block;
+  color: var(--sb-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.slopbuster-reasons {
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+  border: 1px solid transparent;
+}
+
+.slopbuster-reasons.slopbuster-error {
+  border-color: var(--sb-danger);
+}
+
+.slopbuster-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--sb-text);
+  font-size: 14px;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.slopbuster-checkbox-label input[type="checkbox"] {
+  accent-color: var(--sb-accent);
+  width: 16px;
+  height: 16px;
+}
+
+.slopbuster-note-input {
+  width: 100%;
+  background: var(--sb-surface);
+  border: 1px solid var(--sb-border);
+  border-radius: 8px;
+  color: var(--sb-text);
+  font-size: 14px;
+  padding: 8px 12px;
+  font-family: inherit;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.slopbuster-note-input:focus {
+  outline: none;
+  border-color: var(--sb-accent);
+}
+
+.slopbuster-note-row {
+  margin-top: 8px;
+}
+
+.slopbuster-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 12px 20px;
+  border-top: 1px solid var(--sb-border);
+}
+
+.slopbuster-btn {
+  border: none;
+  border-radius: 9999px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.slopbuster-btn-cancel {
+  background: transparent;
+  color: var(--sb-text);
+  border: 1px solid var(--sb-secondary);
+}
+
+.slopbuster-btn-cancel:hover {
+  background: var(--sb-hover);
+}
+
+.slopbuster-btn-bust {
+  background: var(--sb-danger);
+  color: #ffffff;
+}
+
+.slopbuster-btn-bust:hover {
+  background: var(--sb-danger-hover);
+}
+
+/* ── Twitter Hover Card Integration ────────────────────────────────── */
+
+.slopbuster-hovercard-info {
+  padding: 12px 16px;
+  border-top: 1px solid var(--sb-border);
+  background: rgba(244, 67, 54, 0.05);
+}
+
+.slopbuster-hovercard-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #f44336;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.slopbuster-hovercard-icon {
+  width: 18px;
+  height: 18px;
+  color: #f44336;
+}
+
+.slopbuster-hovercard-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.slopbuster-hovercard-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.slopbuster-hovercard-note {
+  color: var(--sb-secondary);
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 6px;
+}

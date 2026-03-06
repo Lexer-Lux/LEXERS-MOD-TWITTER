@@ -1,0 +1,233 @@
+/* Slopbuster Settings Styles */
+
+:root {
+  --sb-page-bg: #ffffff;
+  --sb-page-text: #1a1a1a;
+  --sb-page-heading: #333;
+  --sb-page-secondary: #666;
+  --sb-page-surface: #f5f5f5;
+  --sb-page-surface-hover: #eee;
+  --sb-page-border: #ddd;
+  --sb-page-input-bg: #fff;
+  --sb-page-input-border: #ccc;
+  --sb-page-label: #444;
+  --sb-page-desc: #888;
+  --sb-page-radio-border: #ccc;
+  --sb-page-radio-text: #888;
+  --sb-page-radio-hover-border: #aaa;
+  --sb-page-radio-hover-text: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sb-page-bg: #0d1117;
+    --sb-page-text: #e1e8ed;
+    --sb-page-heading: #fff;
+    --sb-page-secondary: #8899a6;
+    --sb-page-surface: #15202b;
+    --sb-page-surface-hover: #1a2734;
+    --sb-page-border: #1a2734;
+    --sb-page-input-bg: #0d1117;
+    --sb-page-input-border: #333;
+    --sb-page-label: #ddd;
+    --sb-page-desc: #6b7d8e;
+    --sb-page-radio-border: #333;
+    --sb-page-radio-text: #888;
+    --sb-page-radio-hover-border: #555;
+    --sb-page-radio-hover-text: #ccc;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--sb-page-bg);
+  color: var(--sb-page-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ff6b6b;
+  margin-bottom: 32px;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--sb-page-heading);
+  margin-bottom: 4px;
+}
+
+.section-desc {
+  color: var(--sb-page-secondary);
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+/* ── Reason rows ───────────────────────────────────────────────────── */
+
+.reasons-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: var(--sb-page-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.reason-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--sb-page-surface);
+}
+
+.reason-row:hover {
+  background: var(--sb-page-surface-hover);
+}
+
+.reason-label-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+}
+
+.reason-color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.reason-label {
+  font-size: 14px;
+  color: var(--sb-page-label);
+  font-weight: 500;
+}
+
+.reason-desc {
+  font-size: 12px;
+  color: var(--sb-page-desc);
+  line-height: 1.3;
+}
+
+.reason-radios {
+  display: flex;
+  gap: 4px;
+}
+
+.reason-radios input[type="radio"] {
+  display: none;
+}
+
+.radio-label {
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--sb-page-radio-border);
+  color: var(--sb-page-radio-text);
+  transition: all 0.15s;
+}
+
+.radio-label:hover {
+  border-color: var(--sb-page-radio-hover-border);
+  color: var(--sb-page-radio-hover-text);
+}
+
+input[type="radio"]:checked + .radio-show {
+  background: #2ea043;
+  border-color: #2ea043;
+  color: #fff;
+}
+
+input[type="radio"]:checked + .radio-flag {
+  background: #d29922;
+  border-color: #d29922;
+  color: #fff;
+}
+
+input[type="radio"]:checked + .radio-hide {
+  background: #f85149;
+  border-color: #f85149;
+  color: #fff;
+}
+
+/* ── Inputs and buttons ────────────────────────────────────────────── */
+
+.input {
+  background: var(--sb-page-input-bg);
+  border: 1px solid var(--sb-page-input-border);
+  border-radius: 8px;
+  color: var(--sb-page-text);
+  font-size: 14px;
+  padding: 8px 12px;
+  font-family: inherit;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ff6b6b;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #ff4444;
+}
+
+.btn-danger {
+  background: transparent;
+  color: #f85149;
+  border: 1px solid #f85149;
+}
+
+.btn-danger:hover {
+  background: #f85149;
+  color: #fff;
+}
+
+.save-status {
+  text-align: center;
+  color: #4caf50;
+  font-size: 13px;
+  margin-top: 12px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}

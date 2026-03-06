@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Slopbuster — Database</title>
+  <link rel="stylesheet" href="database.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header-row">
+      <h1>Database</h1>
+      <span class="count" id="count"></span>
+    </div>
+
+    <!-- Admin login status -->
+    <div id="adminBar" class="admin-bar" style="display: none;">
+      <span id="adminStatus" class="admin-status-text"></span>
+      <button id="logoutBtn" class="btn btn-small btn-secondary">Logout</button>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="search" class="input" placeholder="Search handle, reason, note...">
+      <select id="filterReason" class="input">
+        <option value="">All reasons</option>
+      </select>
+    </div>
+
+    <table class="table" id="table">
+      <thead>
+        <tr>
+          <th>Handle</th>
+          <th>Display Name</th>
+          <th>Reasons</th>
+          <th>Note</th>
+          <th>Proof</th>
+          <th>Date</th>
+          <th class="admin-only"></th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+
+    <div id="empty" class="empty" style="display:none">
+      No users busted yet. The timeline is clean... for now.
+    </div>
+
+    <!-- Category Editor (Admin only) -->
+    <section id="categorySection" class="section admin-only" style="display: none;">
+      <h2>Edit Categories</h2>
+      <p class="section-desc">Add, edit, or remove reason categories. Changes apply to all future busts.</p>
+      <div id="categoryEditor" class="category-editor"></div>
+      <div class="category-actions">
+        <button id="addCategory" class="btn btn-primary">+ Add Category</button>
+        <button id="resetCategories" class="btn btn-danger">Reset to Defaults</button>
+      </div>
+      <div id="categoryStatus" class="status-text"></div>
+    </section>
+
+    <!-- GitHub Actions (Admin only) -->
+    <div id="githubActions" class="github-actions admin-only" style="display: none;">
+      <button id="loginGithub" class="btn btn-github">Login with GitHub</button>
+      <button id="pushGithub" class="btn btn-primary" style="display: none;">Push to GitHub</button>
+      <span id="pushStatus" class="status-text"></span>
+    </div>
+  </div>
+
+  <script src="lib/shared.js"></script>
+  <script src="database.js"></script>
+</body>
+</html>

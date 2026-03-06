@@ -1,0 +1,403 @@
+/* Slopbuster Database Styles */
+
+:root {
+  --sb-page-bg: #ffffff;
+  --sb-page-text: #1a1a1a;
+  --sb-page-secondary: #666;
+  --sb-page-surface: #f5f5f5;
+  --sb-page-border: #ddd;
+  --sb-page-input-bg: #fff;
+  --sb-page-input-border: #ccc;
+  --sb-page-tag-bg: #e8e8f0;
+  --sb-page-tag-text: #555;
+  --sb-page-row-hover: #f9f9f9;
+  --sb-page-th-border: #ccc;
+  --sb-page-td-border: #eee;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sb-page-bg: #0d1117;
+    --sb-page-text: #e1e8ed;
+    --sb-page-secondary: #8899a6;
+    --sb-page-surface: #15202b;
+    --sb-page-border: #1a2734;
+    --sb-page-input-bg: #15202b;
+    --sb-page-input-border: #333;
+    --sb-page-tag-bg: #2a2a4a;
+    --sb-page-tag-text: #ccc;
+    --sb-page-row-hover: #15202b;
+    --sb-page-th-border: #2a2a3a;
+    --sb-page-td-border: #1a2734;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--sb-page-bg);
+  color: var(--sb-page-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.header-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ff6b6b;
+}
+
+.count {
+  font-size: 14px;
+  color: var(--sb-page-secondary);
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  background: var(--sb-page-input-bg);
+  border: 1px solid var(--sb-page-input-border);
+  border-radius: 8px;
+  color: var(--sb-page-text);
+  font-size: 14px;
+  padding: 8px 12px;
+  font-family: inherit;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ff6b6b;
+}
+
+.input:first-child {
+  flex: 1;
+}
+
+/* ── Table ─────────────────────────────────────────────────────────── */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sb-page-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--sb-page-th-border);
+}
+
+.table td {
+  padding: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--sb-page-td-border);
+  vertical-align: top;
+}
+
+.table tr:hover td {
+  background: var(--sb-page-row-hover);
+}
+
+.handle {
+  color: #1d9bf0;
+  font-weight: 600;
+}
+
+.reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--sb-page-tag-bg);
+  color: var(--sb-page-tag-text);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.note {
+  color: var(--sb-page-secondary);
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.link {
+  color: #1d9bf0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.date {
+  color: var(--sb-page-secondary);
+  white-space: nowrap;
+}
+
+.remove-btn {
+  background: transparent;
+  border: 1px solid #f85149;
+  color: #f85149;
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.remove-btn:hover {
+  background: #f85149;
+  color: #fff;
+}
+
+/* ── Empty state ───────────────────────────────────────────────────── */
+
+.empty {
+  text-align: center;
+  color: var(--sb-page-secondary);
+  font-size: 15px;
+  padding: 60px 20px;
+}
+
+/* ── Admin Bar ─────────────────────────────────────────────────────── */
+
+.admin-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--sb-page-surface);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.admin-status-text {
+  font-size: 13px;
+  color: #4caf50;
+  font-weight: 500;
+}
+
+/* ── Buttons ───────────────────────────────────────────────────────── */
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.btn-small {
+  padding: 4px 10px;
+  font-size: 11px;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #ff4444;
+}
+
+.btn-secondary {
+  background: var(--sb-page-surface);
+  color: var(--sb-page-text);
+  border: 1px solid var(--sb-page-border);
+}
+
+.btn-secondary:hover {
+  background: var(--sb-page-border);
+}
+
+.btn-danger {
+  background: transparent;
+  color: #f85149;
+  border: 1px solid #f85149;
+}
+
+.btn-danger:hover {
+  background: #f85149;
+  color: #fff;
+}
+
+.btn-save {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+.btn-save:hover {
+  background: #45a049;
+}
+
+.btn-github {
+  background: #24292e;
+  color: #fff;
+}
+
+.btn-github:hover {
+  background: #1b1f23;
+}
+
+/* ── Category Editor ───────────────────────────────────────────────── */
+
+.section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--sb-page-border);
+}
+
+.section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--sb-page-text);
+  margin-bottom: 4px;
+}
+
+.section-desc {
+  color: var(--sb-page-secondary);
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.category-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: var(--sb-page-border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.category-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--sb-page-surface);
+}
+
+.category-row:hover {
+  background: var(--sb-page-row-hover);
+}
+
+.category-color-input {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+}
+
+.category-color-input::-webkit-color-swatch-wrapper {
+  padding: 2px;
+}
+
+.category-color-input::-webkit-color-swatch {
+  border-radius: 4px;
+  border: 1px solid var(--sb-page-border);
+}
+
+.category-inputs {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.category-label-input {
+  flex: 1;
+  min-width: 100px;
+}
+
+.category-desc-input {
+  flex: 2;
+  min-width: 150px;
+}
+
+.category-row-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.category-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* ── GitHub Actions ────────────────────────────────────────────────── */
+
+.github-actions {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--sb-page-surface);
+  border: 1px solid var(--sb-page-border);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ── Status Text ───────────────────────────────────────────────────── */
+
+.status-text {
+  font-size: 12px;
+  color: var(--sb-page-secondary);
+}
+
+.status-text.success {
+  color: #4caf50;
+}
+
+.status-text.error {
+  color: #f85149;
+}

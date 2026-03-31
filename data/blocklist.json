@@ -1,99 +1,102 @@
 {
   "entries": [
     {
-      "addedAt": "2026-03-11T07:53:40.904Z",
+      "addedAt": "2026-03-11",
       "displayName": "taf 🝮",
       "handle": "tafphorisms",
       "note": "",
       "proofUrl": "https://x.com/tafphorisms/status/2031549610649596118",
+      "proofs": [],
       "reasons": [
         "fake_news"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-11T21:13:12.373Z",
+      "addedAt": "2026-03-11",
       "displayName": "Felix",
       "handle": "xxLuckyTiger",
       "note": "",
       "proofUrl": "https://x.com/xxLuckyTiger/status/2031775210592940186",
+      "proofs": [],
       "reasons": [
         "toxicity"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-11T21:21:36.752Z",
+      "addedAt": "2026-03-11",
       "displayName": "Bobby Digital #4",
       "handle": "grundelthegreat",
       "note": "",
       "proofUrl": "https://x.com/grundelthegreat/status/2031840560231948406",
+      "proofs": [],
       "reasons": [
         "toxicity"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T18:10:24.811Z",
+      "addedAt": "2026-03-12",
       "displayName": "ester",
       "handle": "esterdiol",
       "note": "",
       "proofUrl": "https://x.com/esterdiol/status/2031989551455973431",
+      "proofs": [],
       "reasons": [
         "just_plain_dumb"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T18:15:00.325Z",
+      "addedAt": "2026-03-12",
       "displayName": "(rock howar)dee",
       "handle": "ManzIsMe",
       "note": "",
       "proofUrl": "https://x.com/ManzIsMe/status/2032087530846244984",
+      "proofs": [],
       "reasons": [
         "fake_news"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T18:20:26.775Z",
-      "displayName": "The Act Man",
-      "handle": "TheActMan_YT",
-      "note": "Companies don't lay off employees they need just to be evil oh my god that would be the most insanely self-sabotaging thing ever. Pure idiot slopulism",
-      "proofUrl": "https://x.com/TheActMan_YT/status/2032013693102514251",
-      "reasons": [
-        "just_plain_dumb"
-      ],
-      "source": "tweet"
-    },
-    {
-      "addedAt": "2026-03-12T18:23:43.024Z",
+      "addedAt": "2026-03-12",
       "displayName": "Sasha Gusev",
       "handle": "SashaGusevPosts",
-      "note": "From CN:\nThe post has -2 karma and is 15 years old (as of 2026-03-12 8:30 am PST).\n\nhttps://www.lesswrong.com/posts/jTbbde6vQxfogwRNF/will-dna-analysis-make-politics-less-of-a-mind-killer",
+      "note": "He cropped out the part that shows it has -2 Karma lmao. Plus all the replies are overwhelmingly negative...",
       "proofUrl": "https://x.com/SashaGusevPosts/status/2031921437208932669",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.lesswrong.com/posts/jTbbde6vQxfogwRNF/will-dna-analysis-make-politics-less-of-a-mind-killer"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-12T18:42:23.530Z",
+      "addedAt": "2026-03-12",
       "displayName": "they/them might be giants ☭",
       "handle": "babadookspinoza",
-      "note": "Thinking the lives of 8 billion people should all screech to a halt any time something happens to somebody is an excellent way to ruin everything for everyone, but what do you expect from someone with a hammer and sickle in their name",
+      "note": "Even a child could understand that requiring the lives of 8 billion people to screech to a halt any time something bad happens to somebody is an excellent way to make sure nothing ever gets done. But what do you expect from someone with a hammer and sickle in their name",
       "proofUrl": "https://x.com/babadookspinoza/status/2031861558632968440",
+      "proofs": [],
       "reasons": [
         "just_plain_dumb"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T18:42:41.695Z",
+      "addedAt": "2026-03-12",
       "displayName": "JayJay ᥫ᭡",
       "handle": "Jameca2011",
       "note": "You are literally everything wrong with society",
       "proofUrl": "https://x.com/Jameca2011/status/2031333960941228407",
+      "proofs": [],
       "reasons": [
         "toxicity",
         "just_plain_dumb"
@@ -101,11 +104,12 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T19:18:21.829Z",
+      "addedAt": "2026-03-12",
       "displayName": "khargosh (rhythm luvr)",
       "handle": "lovhraa",
       "note": "1. You're about 100 years off the mark\n2. Comfort women were a Japanese thing. You are confusing two completely separate countries\n3. You are legitimately mentally ill",
       "proofUrl": "https://x.com/lovhraa/status/2031738097776652410",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "insane"
@@ -113,44 +117,48 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T19:19:11.471Z",
+      "addedAt": "2026-03-12",
       "displayName": " Bronze Age Bastard ",
       "handle": "BronzeAgeBully",
       "note": "",
       "proofUrl": "https://x.com/BronzeAgeBully/status/2031728538013864271",
+      "proofs": [],
       "reasons": [
         "toxicity"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T22:07:54.993Z",
+      "addedAt": "2026-03-12",
       "displayName": "n x d",
       "handle": "nxd1979",
       "note": "",
       "proofUrl": "https://x.com/nxd1979/status/2032182604611359026",
+      "proofs": [],
       "reasons": [
         "toxicity"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T22:47:28.557Z",
+      "addedAt": "2026-03-12",
       "displayName": "The 4Chan Archives",
       "handle": "blacknredtext",
       "note": "how dumb u gotta be to believe this",
       "proofUrl": "https://x.com/blacknredtext/status/2032199262063534291",
+      "proofs": [],
       "reasons": [
         "fake_news"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-12T22:51:33.504Z",
+      "addedAt": "2026-03-12",
       "displayName": "James ",
       "handle": "JamesClips22",
       "note": "",
       "proofUrl": "https://x.com/JamesClips22/status/2032227204076130310",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "toxicity",
@@ -159,55 +167,60 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-13T21:31:06.790Z",
+      "addedAt": "2026-03-13",
       "displayName": "Maddy  201/202",
       "handle": "QueenMaddy_simp",
       "note": "",
       "proofUrl": "https://x.com/QueenMaddy_simp/status/2032171472832381370",
+      "proofs": [],
       "reasons": [
         "toxicity"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-13T21:36:06.081Z",
+      "addedAt": "2026-03-13",
       "displayName": "d3vulfruit",
       "handle": "d3vulfruit",
       "note": "",
       "proofUrl": "https://x.com/d3vulfruit/status/2032209860951961952",
+      "proofs": [],
       "reasons": [
         "toxicity"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-13T21:36:24.932Z",
+      "addedAt": "2026-03-13",
       "displayName": "Petey_pabl0_g",
       "handle": "petey_pabl0_g",
       "note": "",
       "proofUrl": "https://x.com/petey_pabl0_g/status/2032199848284299384",
+      "proofs": [],
       "reasons": [
         "toxicity"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-24T18:28:01.142Z",
+      "addedAt": "2026-03-24",
       "displayName": "2001 Live",
       "handle": "25YearsAgoLive",
       "note": "",
       "proofUrl": "https://x.com/25YearsAgoLive/status/2036472399093285171",
+      "proofs": [],
       "reasons": [
         "illegal_ads"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-24T18:35:17.489Z",
+      "addedAt": "2026-03-24",
       "displayName": "The Princess that was Promised",
       "handle": "RachaelEWrites",
       "note": "",
       "proofUrl": "https://x.com/RachaelEWrites/status/2036240803064959043",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "insane",
@@ -216,11 +229,12 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-24T18:37:39.760Z",
+      "addedAt": "2026-03-24",
       "displayName": "Sky Knight",
       "handle": "SkyKnight1570",
       "note": "not only is this insane but it's completely irrelevant to the post he's replying too lol",
       "proofUrl": "https://x.com/SkyKnight1570/status/2036245677832020459",
+      "proofs": [],
       "reasons": [
         "toxicity",
         "insane"
@@ -228,22 +242,24 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-25T17:18:02.346Z",
+      "addedAt": "2026-03-25",
       "displayName": "♱ neo_dionysus ♱",
       "handle": "3Neo3Dionysus3",
       "note": "Not a machine gun. Not innocent animals - they're feral hogs. Violent, invasive, nasty.",
       "proofUrl": "https://x.com/3Neo3Dionysus3/status/2035558738686255557",
+      "proofs": [],
       "reasons": [
         "just_plain_dumb"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-25T17:31:22.538Z",
+      "addedAt": "2026-03-25",
       "displayName": "Impassionata",
       "handle": "Impassionata1",
       "note": "Not even remotely related to the topic at hand.",
       "proofUrl": "https://x.com/Impassionata1/status/2036217751640158298",
+      "proofs": [],
       "reasons": [
         "toxicity",
         "insane"
@@ -251,33 +267,36 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-25T23:45:50.644Z",
+      "addedAt": "2026-03-25",
       "displayName": "jezz",
       "handle": "ABmrJutt",
       "note": "",
       "proofUrl": "https://x.com/ABmrJutt/status/2036863878131556664",
+      "proofs": [],
       "reasons": [
         "fake_news"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-25T23:47:57.095Z",
+      "addedAt": "2026-03-25",
       "displayName": "MAGA Mayhem",
       "handle": "cryptonomad86",
       "note": "",
       "proofUrl": "https://x.com/cryptonomad86/status/2036594947928064356",
+      "proofs": [],
       "reasons": [
         "insane"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-25T23:50:44.368Z",
+      "addedAt": "2026-03-25",
       "displayName": "Jesse Brown",
       "handle": "JesseBrown",
       "note": "HAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHAHAHAHAAHHAHA",
       "proofUrl": "https://x.com/JesseBrown/status/2036425514563391714",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "insane",
@@ -286,22 +305,24 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-26T01:06:43.799Z",
+      "addedAt": "2026-03-26",
       "displayName": "Syntheticus Humanitus",
       "handle": "TheChaosWeeber",
       "note": "low quality ragebait",
       "proofUrl": "https://x.com/TheChaosWeeber/status/2036965471770304757",
+      "proofs": [],
       "reasons": [
         "engagement_bait"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-26T01:37:53.111Z",
+      "addedAt": "2026-03-26",
       "displayName": "Gabrielle Blair",
       "handle": "designmom",
       "note": "I was like \"genuinely how dumb do you have to be to not know that y chromosomes exist\" and then I saw she was a radical feminist and i was like yeah that makes sense | The nonexistence of the y-chromosome is not a 'basic scientific fact', it's the kind of thing you say that makes you still cringe 10 years later when you remember it | He actually makes a very good point -- mtDNA is tiny and has near-zero meaningful genomic variants in healthy people -- and this is a completely unwarranted level of hostility to react with. | literally admitting to rage baiting",
       "proofUrl": "https://x.com/designmom/status/2036892365764325607",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "just_plain_dumb",
@@ -311,33 +332,36 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-26T14:11:03.606Z",
+      "addedAt": "2026-03-26",
       "displayName": "Kinza زن زندگی آزادی",
       "handle": "radwitchhh",
       "note": "gay sex is now abusive lmao",
       "proofUrl": "https://x.com/radwitchhh/status/2036768245143769089",
+      "proofs": [],
       "reasons": [
         "insane"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-26T19:05:06.991Z",
+      "addedAt": "2026-03-26",
       "displayName": "bONGO ",
       "handle": "wariocolosseum",
       "note": "idk how delusional you need to be to believe this but i'm going to come back in a year and laugh at you",
       "proofUrl": "https://x.com/wariocolosseum/status/2036658835125850368",
+      "proofs": [],
       "reasons": [
         "insane"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-30T06:24:50.049Z",
+      "addedAt": "2026-03-30",
       "displayName": "Spike el Monstruo ",
       "handle": "spikermonster",
       "note": "MEN AND WOMEN HAVING DIFFERENT SKULL SHAPES IS NOT A \"STEREOPYPE\" IT IS OBJECTIVE SCIENTIFIC FACT OH MY GOD",
       "proofUrl": "https://x.com/spikermonster/status/2038299218666819729/photo/1",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "insane",
@@ -346,11 +370,12 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T08:17:50.045Z",
+      "addedAt": "2026-03-31",
       "displayName": "Jill Filipovic",
       "handle": "JillFilipovic",
       "note": "the idea that you should be allowed to sue companies for making their food taste good is the dumbest thing i've ever read on this website, and that's really saying something",
       "proofUrl": "https://x.com/JillFilipovic/status/2037073035178447165",
+      "proofs": [],
       "reasons": [
         "insane",
         "just_plain_dumb"
@@ -358,49 +383,87 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:01:55.158Z",
+      "addedAt": "2026-03-31",
       "displayName": "Gutsick Gibbon",
       "handle": "Gutsick_Gibbon",
-      "note": "Research funding has gone up massively over the past decades. It's just a lie and pure cope to deflect from the fact that the same experts who pushed for lockdowns defended mass protests, something which obviously decreased public trust in them.\nhttps://ncses.nsf.gov/pubs/nsf25337\nhttps://www.politico.com/news/magazine/2020/06/04/public-health-protests-301534",
+      "note": "Research funding has gone up massively over the past decades. It's just a lie and pure cope to deflect from the fact that the same experts who pushed for lockdowns defended mass protests, something which obviously decreased public trust in them.",
       "proofUrl": "https://x.com/Gutsick_Gibbon/status/2038704918370898222/photo/1",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.politico.com/news/magazine/2020/06/04/public-health-protests-301534"
+        },
+        {
+          "text": null,
+          "url": "https://ncses.nsf.gov/pubs/nsf25337"
+        }
+      ],
       "reasons": [
         "fake_news",
         "toxicity"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:30:16.922Z",
+      "addedAt": "2026-03-31",
       "displayName": " Lilith Lovett  same @ on ",
       "handle": "LilithLovett",
-      "note": "Not only has this been thoroughly reported on, he wasn't even an ICE agent -- he was a contractor.\nhttps://www.independent.co.uk/news/world/americas/us-politics/ice-officer-guilty-sexual-abuse-immigrant-b2893752.html\nhttps://www.wtok.com/2025/12/29/ice-officer-pleads-guilty-sexually-abusing-detainee-louisiana-facility/\nhttps://www.theadvocate.com/acadiana/news/courts/ex-louisiana-ice-center-guard-asks-to-speak-with-deported-detainee-he-pleaded-guilty-to/article_24309640-741d-4456-8141-8c7909cb21f6.html\nhttps://www.wwnytv.com/2025/12/29/detention-officer-admits-sexually-abusing-detainee-ice-facility/ | There is as much actual evidence of Trump being a pedophile as there is of you being one | No Patrick, the US government is not performing Nazi medical experiments on trans people in prisons | you need antipsychotics",
+      "note": "Not only has this been thoroughly reported on, he wasn't even an ICE agent -- he was a contractor. | There is as much actual evidence of Trump being a pedophile as there is of you being one | No Patrick, the US government is not performing Nazi medical experiments on trans people in prisons | you need antipsychotics",
       "proofUrl": "https://x.com/LilithLovett/status/2035426018467668462",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.wwnytv.com/2025/12/29/detention-officer-admits-sexually-abusing-detainee-ice-facility/"
+        },
+        {
+          "text": null,
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/ice-officer-guilty-sexual-abuse-immigrant-b2893752.html"
+        },
+        {
+          "text": null,
+          "url": "https://www.wtok.com/2025/12/29/ice-officer-pleads-guilty-sexually-abusing-detainee-louisiana-facility/"
+        },
+        {
+          "text": null,
+          "url": "https://www.theadvocate.com/acadiana/news/courts/ex-louisiana-ice-center-guard-asks-to-speak-with-deported-detainee-he-pleaded-guilty-to/article_24309640-741d-4456-8141-8c7909cb21f6.html"
+        }
+      ],
       "reasons": [
         "fake_news",
         "insane",
         "just_plain_dumb"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:15:46.872Z",
+      "addedAt": "2026-03-31",
       "displayName": "sam",
       "handle": "lemoncholia__",
-      "note": "OP themselves literally said that they had to wait 8 years because they lived with their parents, not because of healthcare policy. If you and your Twitter community lie about such obviously untrue things in order to create evidence of a mass government conspiracy designed to make you kill yourselves, consider that you may be detached from reality.\nhttps://x.com/lilyzura1/status/2037925142463131959",
+      "note": "OP themselves literally said that they had to wait 8 years because they lived with their parents, not because of healthcare policy. If you and your Twitter community lie about such obviously untrue things in order to create evidence of a mass government conspiracy designed to make you kill yourselves, consider that you may be detached from reality.",
       "proofUrl": "https://x.com/lemoncholia__/status/2037856292891480109",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://x.com/lilyzura1/status/2037925142463131959"
+        }
+      ],
       "reasons": [
         "fake_news",
         "insane",
         "just_plain_dumb"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:16:39.309Z",
+      "addedAt": "2026-03-31",
       "displayName": "Toxic Cowboy ",
       "handle": "toxiccowboy1",
       "note": "Fake AI video passed off as real.",
       "proofUrl": "https://x.com/toxiccowboy1/status/2037257622059941963",
+      "proofs": [],
       "reasons": [
         "ai_slop",
         "fake_news"
@@ -408,11 +471,12 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:21:08.623Z",
+      "addedAt": "2026-03-31",
       "displayName": "belle",
       "handle": "espressobaddie",
       "note": "The Trump admin is not providing trans people with hormones in prison. This is not medical experimentation",
       "proofUrl": "https://x.com/espressobaddie/status/2037229304933703850",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "insane"
@@ -420,44 +484,58 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:25:20.391Z",
+      "addedAt": "2026-03-31",
       "displayName": "Whooith",
       "handle": "whooith",
-      "note": "https://www.bbc.com/news/uk-42221629\nOf the 125 transgender inmates counted in the UK:\n\"27 were convicted of rape (plus a further five of attempted rape)\n13 were convicted of possessing, distributing or making indecent images of children\n13 were convicted of sexual assault or attempted sexual assault\nNine were convicted of causing or inciting a child under 16 to engage in sexual activity\nSeven were convicted of sexual activity with a child\nSeven were convicted of indecent assault or gross indecency\n\nPeep community notes -- lots of good stuff there. For example, prostitution rarely gets you a serious prison sentence in the UK anyway so the entire premise here is fictional.",
+      "note": "Of the 125 transgender inmates counted in the UK:\n\"27 were convicted of rape (plus a further five of attempted rape)\n13 were convicted of possessing, distributing or making indecent images of children\n13 were convicted of sexual assault or attempted sexual assault\nNine were convicted of causing or inciting a child under 16 to engage in sexual activity\nSeven were convicted of sexual activity with a child\nSeven were convicted of indecent assault or gross indecency\n\nPeep community notes -- lots of good stuff there. For example, prostitution rarely gets you a serious prison sentence in the UK anyway so the entire premise here is fictional.",
       "proofUrl": "https://x.com/whooith/status/2037232054002475134",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://queerkentucky.com/kentucky-trans-teachers-hb-759-fact-check/"
+        },
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:29:33.465Z",
+      "addedAt": "2026-03-31",
       "displayName": "Jeff Dye",
       "handle": "JeffDye",
       "note": "",
       "proofUrl": "https://x.com/JeffDye/status/2034737094447497644",
+      "proofs": [],
       "reasons": [
         "fake_news"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:33:17.815Z",
+      "addedAt": "2026-03-31",
       "displayName": "alex ",
       "handle": "rystbelt",
       "note": "This is the most uncharitable and unsupported interpretation of their words imaginable and I have never seen a single piece of supporting evidence for this",
       "proofUrl": "https://x.com/rystbelt/status/2034621617964200266",
+      "proofs": [],
       "reasons": [
         "fake_news"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:33:35.821Z",
+      "addedAt": "2026-03-31",
       "displayName": "PNW Conservative",
       "handle": "PNWConservative",
       "note": "Fake AI video passed off as real.",
       "proofUrl": "https://x.com/PNWConservative/status/2033893949694513554",
+      "proofs": [],
       "reasons": [
         "ai_slop",
         "fake_news"
@@ -465,22 +543,30 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:38:16.563Z",
+      "addedAt": "2026-03-31",
       "displayName": "Рель Кьер ✙",
       "handle": "Rel_Tan_Kier",
-      "note": "No it isn't.\nhttps://www.bbc.com/news/uk-42221629",
+      "note": "No it isn't.",
       "proofUrl": "https://x.com/Rel_Tan_Kier/status/2037519283991777397",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:39:53.435Z",
+      "addedAt": "2026-03-31",
       "displayName": "nikki ",
       "handle": "lttlegrim",
       "note": "As soon as someone provides evidence of that some vast behind the scenes transphobic cabal is responsible for artificially inflating the number of incarcerated trans rapists I will remove this note",
       "proofUrl": "https://x.com/lttlegrim/status/2037212006466380262",
+      "proofs": [],
       "reasons": [
         "fake_news",
         "insane"
@@ -488,116 +574,381 @@
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:40:29.317Z",
+      "addedAt": "2026-03-31",
       "displayName": "Xuanathame",
       "handle": "Xuanathame",
-      "note": "No they aren't.\nhttps://www.bbc.com/news/uk-42221629",
+      "note": "No they aren't.",
       "proofUrl": "https://x.com/Xuanathame/status/2037362618709790825",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:43:19.077Z",
+      "addedAt": "2026-03-31",
       "displayName": "Sandy ",
       "handle": "avislazuli",
-      "note": "Of the 60 trans sex criminals behind bars in the UK, 0 were convicted of prostitution offenses. Why lie about something so easily disproven?\nhttps://www.bbc.com/news/uk-42221629",
+      "note": "Of the 60 trans sex criminals behind bars in the UK, 0 were convicted of prostitution offenses. Why lie about something so easily disproven?",
       "proofUrl": "https://x.com/avislazuli/status/2037468306009907562",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:44:52.786Z",
+      "addedAt": "2026-03-31",
       "displayName": "Lydia",
       "handle": "lydiabackagain",
-      "note": "No they weren't.\nhttps://www.bbc.com/news/uk-42221629",
+      "note": "No they weren't.",
       "proofUrl": "https://x.com/lydiabackagain/status/2037301125813096839",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:45:12.546Z",
+      "addedAt": "2026-03-31",
       "displayName": "stupid diseased thing ",
       "handle": "AlexisTakeAD",
-      "note": "None of them were convicted of prostitution.\nhttps://www.bbc.com/news/uk-42221629",
+      "note": "None of them were convicted of prostitution.",
       "proofUrl": "https://x.com/AlexisTakeAD/status/2037351655964880968",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:46:16.164Z",
+      "addedAt": "2026-03-31",
       "displayName": "fifi",
       "handle": "fifi_dontsackme",
-      "note": "None of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.\nhttps://www.bbc.com/news/uk-42221629",
+      "note": "None of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.",
       "proofUrl": "https://x.com/fifi_dontsackme/status/2037627599023644887",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:46:54.857Z",
+      "addedAt": "2026-03-31",
       "displayName": "Cauli",
       "handle": "MrCauli2137",
-      "note": "None of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.\nhttps://www.bbc.com/news/uk-42221629",
+      "note": "None of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.",
       "proofUrl": "https://x.com/MrCauli2137/status/2037376008571985937",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:47:32.003Z",
+      "addedAt": "2026-03-31",
       "displayName": "Joan not ¾ of Arc ",
       "handle": "Joan_not_of_arc",
-      "note": "They do not. Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution. https://www.bbc.com/news/uk-42221629",
+      "note": "They do not. Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.",
       "proofUrl": "https://x.com/Joan_not_of_arc/status/2037310190798713152",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:47:53.845Z",
+      "addedAt": "2026-03-31",
       "displayName": "sasha  | prophet of vedrfolnir",
       "handle": "dreamsequencxr",
-      "note": "Completely untrue. Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution. https://www.bbc.com/news/uk-42221629",
+      "note": "Completely untrue. Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.",
       "proofUrl": "https://x.com/dreamsequencxr/status/2037386363134247164",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": null
     },
     {
-      "addedAt": "2026-03-31T16:48:08.614Z",
+      "addedAt": "2026-03-31",
       "displayName": "omicron Omega",
       "handle": "omicron_omega",
-      "note": "Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution. https://www.bbc.com/news/uk-42221629",
+      "note": "Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.",
       "proofUrl": "https://x.com/omicron_omega/status/2037913778109436120",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
       "reasons": [
         "fake_news"
+      ],
+      "source": "tweet",
+      "tweetText": null
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "rigid",
+      "handle": "revivedbrigid",
+      "note": "Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution.",
+      "proofUrl": "https://x.com/revivedbrigid/status/2037477434409341085",
+      "proofs": [
+        {
+          "text": null,
+          "url": "https://www.bbc.com/news/uk-42221629"
+        }
+      ],
+      "reasons": [
+        "fake_news"
+      ],
+      "source": "tweet",
+      "tweetText": null
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Joe Jenkins.",
+      "handle": "jenk62247810",
+      "note": "oh my god",
+      "proofUrl": "https://x.com/jenk62247810/status/2038716374336282940",
+      "proofs": [],
+      "reasons": [
+        "just_plain_dumb"
       ],
       "source": "tweet"
     },
     {
-      "addedAt": "2026-03-31T16:51:20.985Z",
-      "displayName": "rigid",
-      "handle": "revivedbrigid",
-      "note": "Of the 60 trans people incarcerated for sex crimes in the UK, 0 were charged with prostitution. https://www.bbc.com/news/uk-42221629",
-      "proofUrl": "https://x.com/revivedbrigid/status/2037477434409341085",
+      "addedAt": "2026-03-31",
+      "displayName": "alexxstation",
+      "handle": "alexxstation",
+      "note": "",
+      "proofs": [],
       "reasons": [
-        "fake_news"
+        "toxicity"
       ],
-      "source": "tweet"
+      "source": "tweet",
+      "tweetText": "'jews are being purged from public life' is so fucking funny. You're such a Zionist bootlicking loser, it's incredible.",
+      "tweetUrl": "https://x.com/alexxstation/status/2036432263110406391"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Cillian Grey",
+      "handle": "cillian__grey",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "toxicity"
+      ],
+      "source": "tweet",
+      "tweetText": "Take a look at the fucking West Bank and tell me how you are the one under a pogrom here.\n\nYou selfish, narcissistic little fuck.",
+      "tweetUrl": "https://x.com/cillian__grey/status/2036436313713344600"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Benzo Stray Dogs",
+      "handle": "benzostraydogs",
+      "note": "what the fuck",
+      "proofs": [],
+      "reasons": [
+        "toxicity"
+      ],
+      "source": "tweet",
+      "tweetText": "We aren’t actually purging Zionist Jews from public life. But we absolutely should be. You should feel, at bare minimum, uncomfortable everywhere you go.",
+      "tweetUrl": "https://x.com/benzostraydogs/status/2036527189622136853"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Rose TheArtist",
+      "handle": "rosethaaartist",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "just_plain_dumb"
+      ],
+      "source": "tweet",
+      "tweetText": "And I side eye black people that judge other black people for doing it",
+      "tweetUrl": "https://x.com/rosethaaartist/status/2031825607622082630"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Rhodesian Yukari",
+      "handle": "RicharD1ckJohn",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "toxicity"
+      ],
+      "source": "tweet",
+      "tweetText": "No black person should feel sorry bout finessing  the system",
+      "tweetUrl": "https://x.com/RicharD1ckJohn/status/2031920748223205828/photo/1"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "ChartKaizen",
+      "handle": "ChartKaizen",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "toxicity"
+      ],
+      "source": "tweet",
+      "tweetText": "Nígger.",
+      "tweetUrl": "https://x.com/ChartKaizen/status/2032437335434899549"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "EdubEsq",
+      "handle": "EdubEsq",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "just_plain_dumb"
+      ],
+      "source": "tweet",
+      "tweetText": "Ever",
+      "tweetUrl": "https://x.com/EdubEsq/status/2031531158521995306"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Miss Grippy",
+      "handle": "deanerz_",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "just_plain_dumb"
+      ],
+      "source": "tweet",
+      "tweetText": "& I never do!",
+      "tweetUrl": "https://x.com/deanerz_/status/2031747247126483118"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Spicy Nice",
+      "handle": "Lannie1396",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "just_plain_dumb"
+      ],
+      "source": "tweet",
+      "tweetText": "Never",
+      "tweetUrl": "https://x.com/Lannie1396/status/2031788093590601923"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Blowin_Strong",
+      "handle": "Blowin_Strong",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "just_plain_dumb"
+      ],
+      "source": "tweet",
+      "tweetText": "Never Ever . And the black people who feel otherwise are 100% stupid in my opinion .",
+      "tweetUrl": "https://x.com/Blowin_Strong/status/2031506894985007534"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "JNTE",
+      "handle": "JNTE",
+      "note": "\"why does fraud look dishonest\" GEE I WONDER WHY",
+      "proofs": [],
+      "reasons": [
+        "just_plain_dumb"
+      ],
+      "source": "tweet",
+      "tweetText": "Hell No, white people “finesse the system” and they’re genius’s. Why does it look dishonest when black people do it.",
+      "tweetUrl": "https://x.com/JNTE/status/2031697309898063939"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "PopSceneMadi",
+      "handle": "PopSceneMadi",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "toxicity"
+      ],
+      "source": "tweet",
+      "tweetText": "Black people don’t feel sorry about anything.",
+      "tweetUrl": "https://x.com/PopSceneMadi/status/2031836976706675103"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "meisha ۶ৎ",
+      "handle": "meishato",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "fake_news",
+        "toxicity"
+      ],
+      "source": "tweet",
+      "tweetText": "Because men don’t believe that it actually hurts. Most of them think we are instantly aroused by any penetration, even by tampons",
+      "tweetUrl": "https://x.com/meishato/status/2038991998427021440"
+    },
+    {
+      "addedAt": "2026-03-31",
+      "displayName": "Brandon ",
+      "handle": "bdglacierguy",
+      "note": "",
+      "proofs": [],
+      "reasons": [
+        "toxicity"
+      ],
+      "source": "tweet",
+      "tweetText": "And the point still hasn't made it through to your AI-rotted brain.",
+      "tweetUrl": "https://x.com/bdglacierguy/status/2039034504426463376"
     }
   ],
-  "updated": "2026-03-31T16:51:20.985Z",
+  "updated": "2026-03-31",
   "version": 1
 }
